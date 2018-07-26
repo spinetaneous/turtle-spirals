@@ -188,6 +188,8 @@ $RECYCLE.BIN/
 ## Python
 #############
 
+__pycache__/
+
 *.py[cod]
 *.pyc
 secrets.py
