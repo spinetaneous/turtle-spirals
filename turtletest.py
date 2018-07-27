@@ -13,11 +13,6 @@ def square_spiral():
         timmy.forward(num)
         timmy.left(90)
 
-def circle_spiral():
-    for num in range(100):
-        timmy.forward(num)
-        timmy.left(num)
-
 def tilted_square_spiral():
     for num in range(100):
         timmy.forward(num)
