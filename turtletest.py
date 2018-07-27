@@ -6,6 +6,7 @@ import turtle
 
 # create turtle. mine is named timmy
 timmy = turtle.Pen()
+timmy.shape("turtle")
 
 def square_spiral():
     for num in range(100):
@@ -31,6 +32,29 @@ def color_square_spiral():
         timmy.forward(num)
         timmy.left(91)
 
+def flower():
+    # 18 curves for the petals
+    for _ in range(18):
+        # draw half of petal curve
+        for _ in range(40):
+            timmy.pencolor("red")
+            timmy.forward(1)
+            timmy.left(1)
+        # draw yellow center
+        for _ in range(20):
+            timmy.color("yellow")
+            timmy.forward(1)
+            timmy.left(1)
+        # draw other half of petal curve
+        for _ in range(40):
+            timmy.pencolor("red")
+            timmy.forward(1)
+            timmy.left(1)
+        # turn to draw new petal curve
+        timmy.left(120)
+
 # running the program right now won't draw anything
 # you have to call the functions to draw something!
+# example:
+# flower()
 turtle.done() # wait for the user to close the window
