@@ -13,6 +13,11 @@ def square_spiral():
         timmy.forward(num)
         timmy.left(90)
 
+def circle_spiral():
+    for num in range(100):
+        timmy.forward(num)
+        timmy.left(num)
+
 def tilted_square_spiral():
     for num in range(100):
         timmy.forward(num)
@@ -57,4 +62,5 @@ def flower():
 # you have to call the functions to draw something!
 # example:
 # flower()
+
 turtle.done() # wait for the user to close the window
