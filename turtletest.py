@@ -22,7 +22,7 @@ def circle_spiral():
         timmy.circle(num)
         timmy.left(91)
 
-def color_circle_spiral():
+def color_square_spiral():
     # add colors!
     # this one is more complicated; involves modulo + array
     colors = ["red", "yellow", "blue", "green"]
@@ -33,5 +33,4 @@ def color_circle_spiral():
 
 # running the program right now won't draw anything
 # you have to call the functions to draw something!
-
 turtle.done() # wait for the user to close the window
